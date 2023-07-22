@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../Scripting"
+		},
+		{
+			"name": "LearningArduino",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
