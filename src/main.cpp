@@ -6,7 +6,8 @@
 // put function declarations here:
 // int myFunction(int, int);
 
-void setup() { 
+void setup() {
+  pinMode(3,OUTPUT);
   pinMode(A1,INPUT);
   pinMode(LED1,OUTPUT);
   pinMode(LED2,OUTPUT);
@@ -18,29 +19,27 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED3,HIGH);
+  digitalWrite(3,HIGH);
+  delay(150);
+  digitalWrite(3,LOW);
+  delay(150);
+  digitalWrite(3,HIGH);
   delay(100);
-  digitalWrite(LED3,LOW);
+  digitalWrite(3,LOW);
   delay(100);
-  digitalWrite(LED3,HIGH);
+  digitalWrite(3,HIGH);
   delay(100);
-  digitalWrite(LED3,LOW);
-  delay(65);
-  digitalWrite(LED4,HIGH);
-  delay(65);
-  digitalWrite(LED4,LOW);
-  delay(75);
-  digitalWrite(LED2,HIGH);
-  delay(75);
-  digitalWrite(LED2,LOW);
-  delay(55);
-  digitalWrite(LED1,HIGH);
-  delay(55);
-  digitalWrite(LED1,LOW);
-  delay(55);
-  digitalWrite(LED1,HIGH);
-  delay(55);
-  digitalWrite(LED1,LOW);
+  digitalWrite(3,LOW);
+  delay(100);
+  digitalWrite(3,HIGH);
+  delay(145);
+  digitalWrite(3,LOW);
+  delay(165);
+  digitalWrite(3,HIGH);
+  delay(250);
+  digitalWrite(3,LOW);
+  delay(500);
+  digitalWrite(3,HIGH);
   // put your main code here, to run repeatedly:
 }
 
