@@ -40,6 +40,27 @@ void loop() {
   digitalWrite(3,LOW);
   delay(500);
   digitalWrite(3,HIGH);
+
+  digitalWrite(LED3,HIGH);
+  delay(150);
+  digitalWrite(LED3,LOW);
+  delay(150);
+  digitalWrite(LED2,HIGH);
+  delay(100);
+  digitalWrite(LED2,LOW);
+  delay(100);
+  digitalWrite(LED1,HIGH);
+  delay(100);
+  digitalWrite(LED1,LOW);
+  delay(100);
+  digitalWrite(LED1,HIGH);
+  delay(145);
+  digitalWrite(LED1,LOW);
+  delay(165);
+  digitalWrite(LED4,HIGH);
+  delay(250);
+  digitalWrite(LED4,LOW);
+  delay(500);
   // put your main code here, to run repeatedly:
 }
 
